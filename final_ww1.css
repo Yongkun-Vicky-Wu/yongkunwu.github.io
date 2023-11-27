@@ -130,7 +130,7 @@ footer {
 .work1 img {
     position: absolute;
     left: 520px;
-    top: 620px;
+    top: 800px;
     width: 200px;
     height: 200px;
 }
@@ -138,7 +138,7 @@ footer {
 .work2 img {
     position: absolute;
     left: 820px;
-    top: 620px;
+    top: 800px;
     width: 200px;
     height: 200px;
 }
@@ -146,7 +146,7 @@ footer {
 .work3 img {
     position: absolute;
     left: 1120px;
-    top: 620px;
+    top: 800px;
     width: 200px;
     height: 200px;
 }
