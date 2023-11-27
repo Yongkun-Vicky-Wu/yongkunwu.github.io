@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+}
+
+.title {
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.name {
+    position: fixed;
+    left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 400px;
+    z-index: 1;
+}
+
+.direct {
+    position: fixed;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+    width: 330px;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+.direct a {
+    display: block;
+    color: #aeaeae;
+    font-size: 24px;
+    font-weight: 400px;
+    margin-left: 97px;
+    line-height: 80px;
+    border-bottom: solid 1px #767676;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#homepage a {
+    padding-left: 60px;
+}
+
+#cv a {
+    padding-left: 96px;
+}
+
+#ww a,
+#aw a {
+    padding-left: 44px
+}
+
+#ww a {
+    color: white
+}
+
+.direct a:hover {
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 80px;
+    color: #aeaeae;
+    padding-bottom: 20px;
+}
+
+#work1 img {
+    position: absolute;
+    left: 530px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#work2 img {
+    position: absolute;
+    left: 1000px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#work3 img {
+    position: absolute;
+    left: 530px;
+    top: 500px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#work4 img {
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#title1 a,
+#title2 a,
+#title3 a,
+#title4 a {
+    color: #aeaeae;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#title1 a:hover,
+#title2 a:hover,
+#title3 a:hover,
+#title4 a:hover {
+    color: white
+}
+
+#title1 {
+    position: absolute;
+    left: 479px;
+    top: 380px;
+    width: 350px;
+    text-align: center;
+}
+
+#title2 {
+    position: absolute;
+    left: 950px;
+    top: 380px;
+    width: 350px;
+    text-align: center;
+}
+
+#title3 {
+    position: absolute;
+    left: 479px;
+    top: 770px;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#title4 {
+    position: absolute;
+    left: 950px;
+    top: 770px;
+    width: 350px;
+    text-align: center;
+    padding-bottom: 80px
+}

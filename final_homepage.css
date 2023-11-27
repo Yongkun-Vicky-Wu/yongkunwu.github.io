@@ -1,0 +1,179 @@
+body {
+    background-color: black;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.title {
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.name {
+    position: fixed;
+    left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 400px;
+}
+
+.direct {
+    position: fixed;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+    width: 330px;
+    margin-left: -20px;
+}
+
+.direct a {
+    display: block;
+    color: #aeaeae;
+    font-size: 24px;
+    font-weight: 400px;
+    margin-left: 97px;
+    line-height: 80px;
+    border-bottom: solid 1px #767676;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#homepage a {
+    color: white;
+    padding-left: 60px;
+}
+
+#cv a {
+    padding-left: 96px;
+}
+
+#ww a,
+#aw a {
+    padding-left: 44px
+}
+
+.direct a:hover {
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 80px;
+    color: #aeaeae;
+    padding-bottom: 20px;
+}
+
+.content {
+    margin-left: 520px;
+    margin-top: -20px
+}
+
+#blackhole {
+    width: 700px;
+}
+
+.language-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: -50px;
+    margin-top: -20px;
+    line-height: 32px;
+    padding-top: 50px;
+    width: 800px;
+    color: #aeaeae;
+    letter-spacing: 0.8px;
+    border-bottom: solid 1px #767676;
+}
+
+.dropdown {
+    text-align: right;
+    margin-bottom: 50px;
+    margin-right: 190px;
+    color: #aeaeae;
+    font-size: 20px;
+}
+
+#language-select {
+    display: inline;
+    color: #aeaeae;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    background-color: #444444;
+}
+
+#language-select:focus {
+    border: 1px solid #aeaeae;
+}
+
+.Contact {
+    height: 30%;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 470px;
+}
+
+#email {
+    display: inline-block;
+    color: #aeaeae;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+#weChat {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+    color: #aeaeae;
+    padding-top: 20px;
+    padding-left: 133px;
+}
+
+.contact {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    line-height: 26px;
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+#link {
+    display: inline-block;
+    font-size: 20px;
+    color: #aeaeae;
+    padding-bottom: 80px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+}
+
+
+#timezone {
+    display: inline-block;
+    font-size: 20px;
+    color: #aeaeae;
+    padding-bottom: 80px;
+    line-height: 30px;
+    padding-left: 100px;
+}

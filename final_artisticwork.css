@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+}
+
+.title {
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.name {
+    position: fixed;
+    left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: white;
+    font-weight: 400px;
+}
+
+.direct {
+    position: fixed;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+    width: 330px;
+    margin-left: -20px;
+}
+
+.direct a {
+    display: block;
+    color: #aeaeae;
+    font-size: 24px;
+    font-weight: 400px;
+    margin-left: 97px;
+    line-height: 80px;
+    border-bottom: solid 1px #767676;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+#homepage a {
+    padding-left: 60px;
+}
+
+#cv a {
+    padding-left: 96px;
+}
+
+#ww a,
+#aw a {
+    padding-left: 44px
+}
+
+#aw a {
+    color: white
+}
+
+.direct a:hover {
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 80px;
+    color: #aeaeae;
+    padding-bottom: 20px;
+}
+
+#crystalball {
+    width: 560px;
+    position: absolute;
+    left: 367px;
+    top: 100px
+}
+
+.text1 {
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    width: 500px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #aeaeae;
+    text-align: justify;
+}
+
+.text2 {
+    position: absolute;
+    left: 500px;
+    top: 420px;
+    width: 850px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #aeaeae;
+    text-align: justify;
+}
+
+.work1 img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 540px;
+    top: 680px;
+    border-radius: 15px;
+    padding-bottom: 80px;
+}
+
+.title1 a {
+    position: absolute;
+    left: 655px;
+    top: 1008px;
+    font-size: 20px;
+    color: #aeaeae;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.title1 a:hover {
+    color: white
+}
+
+
+.work2 img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 1010px;
+    top: 680px;
+    border-radius: 15px;
+    padding-bottom: 80px;
+}
+
+.title2 a {
+    position: absolute;
+    left: 1023px;
+    top: 1008px;
+    font-size: 20px;
+    color: #aeaeae;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.title2 a:hover {
+    color: white
+}
