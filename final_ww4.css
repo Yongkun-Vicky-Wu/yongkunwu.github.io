@@ -73,21 +73,20 @@ footer {
 }
 
 .text {
-    margin-left: 520px;
+    margin-left: 450px;
     margin-top: -20px
 }
 
 .heading {
-    margin-left: 70px;
-    text-align: middle;
+    text-align: center;
     color: white;
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
-.work1 img {
+/* .work1 img {
     position: absolute;
     left: 520px;
     top: 200px;
@@ -109,23 +108,35 @@ footer {
     top: 200px;
     width: 200px;
     height: 200px;
+} */
+
+.image-container {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.image-container img {
+    width: 20%;
+    /* Ensure images take up the full width of the container */
+    margin-right: 120px;
+    /* Adjust as needed for spacing between images */
 }
 
 .main-content {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-    margin-left: -10px;
-    margin-top: 230px;
+    margin-top: -10px;
     line-height: 32px;
     padding-top: 50px;
-    width: 800px;
+    width: calc(100% - 100px);
     color: #aeaeae;
     letter-spacing: 0.8px;
 }
 
 .translation {
-    width: 800px;
+    width: calc(100% - 100px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
