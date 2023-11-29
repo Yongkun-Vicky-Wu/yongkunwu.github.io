@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .title {
@@ -70,26 +71,42 @@ footer {
     padding-bottom: 20px;
 }
 
+.main {
+    margin-left: 450px;
+}
+
 #crystalball {
-    width: 560px;
-    position: absolute;
-    left: 367px;
-    top: 100px
+    width: 300px;
+    float: left;
+    width: 250px;
+    margin-right: 30px;
+    margin-bottom: 20px
+        /* position: absolute;
+    left: 405px;
+    top: 110px */
 }
 
 .text1 {
-    position: absolute;
+    /* position: absolute;
     left: 850px;
-    top: 100px;
-    width: 500px;
+    top: 100px; */
+    width: calc(100% - 150px);
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 1px;
     color: #aeaeae;
-    text-align: justify;
 }
 
-.text2 {
+.cues {
+    width: calc(100% - 150px);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #6f6f6f;
+    font-style: italic;
+}
+
+/* .text2 {
     position: absolute;
     left: 500px;
     top: 420px;
@@ -99,9 +116,9 @@ footer {
     letter-spacing: 1px;
     color: #aeaeae;
     text-align: justify;
-}
+} */
 
-.work1 img {
+/* .work1 img {
     width: 300px;
     height: 300px;
     position: absolute;
@@ -136,10 +153,46 @@ footer {
     padding-bottom: 80px;
 }
 
+*/
+
+.image-container {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.image-container img {
+    width: 60%;
+    /* Ensure images take up the full width of the container */
+    margin-right: 520px;
+    /* Adjust as needed for spacing between images */
+}
+
+.image-container img a:hover {
+    background-color: #353535;
+}
+
+
+/* 
+.title1 a {
+    position: absolute;
+    left: 575px;
+    top: 950px;
+    font-size: 20px;
+    color: #aeaeae;
+    padding-bottom: 80px;
+    text-decoration: none;
+}
+
+.title1 a:hover {
+    color: white
+}
+
 .title2 a {
     position: absolute;
-    left: 1023px;
-    top: 1008px;
+    left: 970px;
+    top: 950px;
     font-size: 20px;
     color: #aeaeae;
     padding-bottom: 80px;
@@ -148,4 +201,4 @@ footer {
 
 .title2 a:hover {
     color: white
-}
+} */
