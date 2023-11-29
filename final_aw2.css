@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .title {
@@ -63,22 +64,18 @@ body {
 }
 
 .content {
-    margin-left: 520px;
-    margin-top: -20px
+    margin-left: 450px;
+    margin-top: -20px;
+    margin-bottom: 50px;
 }
 
 .heading {
-    margin-left: 160px;
+    text-align: center;
     color: white;
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
-}
-
-#crystalball {
-    width: 700px;
-    margin-top: 30px;
+    width: calc(100% - 100px);
 }
 
 .about {
@@ -89,23 +86,9 @@ body {
     margin-top: -40px;
     line-height: 32px;
     padding-top: 50px;
-    width: 800px;
+    width: calc(100% - 100px);
     color: #aeaeae;
     letter-spacing: 0.8px;
-}
-
-.live {
-    width: 800px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
-    font-style: italic;
-    text-align: right;
-    margin-top: 10px;
-    line-height: 24px;
-    padding-top: 20px;
-    color: #999999;
-    letter-spacing: 0.8px;
-
 }
 
 footer {
@@ -117,11 +100,26 @@ footer {
 }
 
 .vid1 {
-    margin-left: 600px
+    /* margin-left: calc(100% - 800px); */
+    width: calc(100% - 100px);
 }
 
 .vid2 {
-    margin-top: 50px;
-    margin-left: 600px;
-    padding-bottom: 50px;
+    /* margin-left: calc(100% - 800px); */
+    width: calc(100% - 100px);
+}
+
+.vid1-element,
+.vid2-element {
+    width: 100%;
+}
+
+.content .cue1 p,
+.content .cue2 p {
+    width: calc(100% - 150px);
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #6f6f6f;
+    font-style: italic;
 }
