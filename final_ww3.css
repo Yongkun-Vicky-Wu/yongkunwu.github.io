@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .title {
@@ -73,17 +74,17 @@ footer {
 }
 
 .text {
-    margin-left: 520px;
+    margin-left: 450px;
     margin-top: -20px
 }
 
 .heading {
-    margin-left: 310px;
+    text-align: center;
     color: white;
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .main-content {
@@ -94,7 +95,7 @@ footer {
     margin-top: -40px;
     line-height: 32px;
     padding-top: 50px;
-    width: 800px;
+    width: calc(100% - 100px);
     color: #aeaeae;
     letter-spacing: 0.8px;
     padding-bottom: 50px;
