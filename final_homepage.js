@@ -1,30 +1,10 @@
-function changeLanguage() {
-    const select = document.getElementById("language-select");
-    const englishText = document.getElementById("english-text");
-    const chineseText = document.getElementById("chinese-text");
-    const frenchText = document.getElementById("french-text");
+document.getElementById("apply").onclick = function () {
+    let fontSize = document.getElementById("fontSize").value;
+    let fontFamily = document.getElementById("fontFamily").value;
+    // I consulted ChatGPT for how I can get the results from users' input and found that value can be used to retrieve inputs
 
-    // Get the selected value from the dropdown
-    const selectedLanguage = select.value;
-
-    // Hide all paragraphs
-    englishText.style.display = "none";
-    chineseText.style.display = "none";
-    frenchText.style.display = "none";
-
-    // Show the selected paragraph
-    switch (selectedLanguage) {
-        case "english":
-            englishText.style.display = "block";
-            break;
-        case "chinese":
-            chineseText.style.display = "block";
-            break;
-        case "french":
-            frenchText.style.display = "block";
-            break;
-    }
-}
-
-// Attach the event listener to the dropdown
-document.getElementById("language-select").addEventListener("change", changeLanguage);
+    let text = document.getElementById("english-text");
+    text.style.fontSize = fontSize + 'px';
+    text.style.color = fontColor;
+    text.style.fontFamily = fontFamily;
+};
