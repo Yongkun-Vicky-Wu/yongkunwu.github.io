@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .title {
@@ -73,17 +74,17 @@ footer {
 }
 
 .text {
-    margin-left: 520px;
+    margin-left: 450px;
     margin-top: -20px
 }
 
 .heading {
-    text-align: middle;
+    text-align: center;
     color: white;
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .tag {
@@ -96,11 +97,12 @@ footer {
     padding-top: 20px;
     color: #aeaeae;
     letter-spacing: 0.8px;
-    padding-bottom: 60px
+    padding-bottom: 60px;
+    width: calc(100% - 100px);
 }
 
 .quote {
-    width: 800px;
+    width: calc(100% - 100px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: right;
@@ -114,7 +116,7 @@ footer {
 }
 
 .quote-name {
-    width: 800px;
+    width: calc(100% - 100px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 700px;
@@ -127,45 +129,32 @@ footer {
     padding-bottom: 60px
 }
 
-.work1 img {
-    position: absolute;
-    left: 520px;
-    top: 860px;
-    width: 200px;
-    height: 200px;
+.image-container {
+    display: flex;
+    margin-left: 10px;
 }
 
-.work2 img {
-    position: absolute;
-    left: 820px;
-    top: 860px;
-    width: 200px;
-    height: 200px;
-}
-
-.work3 img {
-    position: absolute;
-    left: 1120px;
-    top: 860px;
-    width: 200px;
-    height: 200px;
+.image-container img {
+    width: 20%;
+    /* Ensure images take up the full width of the container */
+    margin-right: 130px;
+    /* Adjust as needed for spacing between images */
 }
 
 .main-content {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-    margin-left: -10px;
-    margin-top: 120px;
+    margin-top: 20px;
     line-height: 32px;
     padding-top: 50px;
-    width: 800px;
+    width: calc(100% - 100px);
     color: #aeaeae;
     letter-spacing: 0.8px;
 }
 
 .bibliography {
-    width: 800px;
+    width: calc(100% - 100px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     text-align: left;
@@ -177,7 +166,7 @@ footer {
 }
 
 .translation {
-    width: 800px;
+    width: calc(100% - 100px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     font-style: italic;
@@ -190,7 +179,7 @@ footer {
 }
 
 .authors {
-    width: 800px;
+    width: calc(100% - 100px);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: right;
