@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 .title {
@@ -68,8 +69,7 @@ footer {
 }
 
 .content {
-    width: 870px;
-    margin-left: 490px;
+    margin-left: 420px;
     margin-top: -80px;
 }
 
@@ -78,10 +78,10 @@ footer {
     left: 510px;
     top: 45px; */
     color: white;
+    width: calc(100% - 100px);
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
     border-bottom: solid 1px #767676;
 }
 
@@ -90,7 +90,7 @@ footer {
     left: 510px;
     top: 120px; */
     color: white;
-    width: 870px;
+    width: calc(100% - 100px);
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
@@ -105,7 +105,7 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .research {
@@ -116,7 +116,7 @@ footer {
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
     border-bottom: solid 1px #767676;
 }
 
@@ -139,7 +139,7 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .research-info2 {
@@ -160,7 +160,7 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .work {
@@ -171,7 +171,7 @@ footer {
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
     border-bottom: solid 1px #767676;
 }
 
@@ -188,7 +188,7 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .work-info2 {
@@ -204,7 +204,7 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .conference {
@@ -212,7 +212,7 @@ footer {
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
     border-bottom: solid 1px #767676;
 }
 
@@ -221,7 +221,7 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
     margin-top: 10px;
 }
 
@@ -230,7 +230,7 @@ footer {
     font-size: 26px;
     line-height: 60px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
     border-bottom: solid 1px #767676;
 }
 
@@ -247,7 +247,7 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
 }
 
 .skills {
@@ -263,6 +263,6 @@ footer {
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
-    width: 870px;
+    width: calc(100% - 100px);
     margin-bottom: 60px;
 }
