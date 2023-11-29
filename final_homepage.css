@@ -1,19 +1,7 @@
 body {
     background-color: black;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: "";
-    display: table
-}
-
-.clearfix:after {
-    clear: both
-}
-
-.clearfix {
-    zoom: 1
+    /* Adjust the scale value as needed */
+    overflow-x: hidden;
 }
 
 .title {
@@ -73,6 +61,26 @@ body {
     text-decoration: none;
 }
 
+#email {
+    position: fixed;
+    left: 160px;
+    top: 580px;
+    color: #aeaeae;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.contact {
+    position: fixed;
+    left: 92px;
+    top: 580px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: #aeaeae;
+    letter-spacing: 1px;
+}
+
 footer {
     position: fixed;
     bottom: 20px;
@@ -83,91 +91,56 @@ footer {
 
 .content {
     margin-left: 520px;
-    margin-top: -20px
+    margin-top: -20px;
+    width: calc(100%-520px)
 }
 
 #blackhole {
-    width: 700px;
+    width: 70%;
+    margin-left: 20px;
 }
 
 .language-text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-    margin-left: -50px;
+    margin-left: 20px;
     margin-top: -20px;
     line-height: 32px;
     padding-top: 50px;
-    width: 800px;
+    width: 75%;
     color: #aeaeae;
     letter-spacing: 0.8px;
-    border-bottom: solid 1px #767676;
 }
 
-.dropdown {
-    text-align: right;
-    margin-bottom: 50px;
-    margin-right: 190px;
-    color: #aeaeae;
-    font-size: 20px;
-}
-
-#language-select {
-    display: inline;
-    color: #aeaeae;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    background-color: #444444;
-}
-
-#language-select:focus {
-    border: 1px solid #aeaeae;
-}
-
-.Contact {
-    height: 30%;
-    width: 70%;
-    margin-top: 20px;
-    margin-left: 470px;
-}
-
-#email {
-    display: inline-block;
-    color: #aeaeae;
-    font-size: 20px;
-    line-height: 20px;
-    padding-top: 30px;
-    padding-left: 150px;
-}
-
-#weChat {
-    display: inline-block;
-    font-size: 20px;
-    line-height: 30px;
-    color: #aeaeae;
-    padding-top: 20px;
-    padding-left: 133px;
-}
-
-.contact {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 26px;
-    line-height: 26px;
-    color: white;
+button {
+    background-color: #555555;
+    color: #d0d0d0;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
     letter-spacing: 1px;
-    padding-top: 10px;
+    font-size: 14px;
+    margin-bottom: 50px;
 }
 
-#link {
-    display: inline-block;
-    font-size: 20px;
-    color: #aeaeae;
-    padding-bottom: 80px;
-    line-height: 20px;
-    padding-bottom: 30px;
-    padding-left: 150px;
+button:hover {
+    background-color: #6c6c6c;
 }
 
+#fontSize,
+#fontFamily {
+    width: calc(100%-120px);
+    height: 20px;
+    background-color: #555555;
+    outline: none;
+    color: #d0d0d0;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
 
 #timezone {
     display: inline-block;
