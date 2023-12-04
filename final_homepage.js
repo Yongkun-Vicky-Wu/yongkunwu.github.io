@@ -5,6 +5,5 @@ document.getElementById("apply").onclick = function () {
 
     let text = document.getElementById("english-text");
     text.style.fontSize = fontSize + 'px';
-    text.style.color = fontColor;
     text.style.fontFamily = fontFamily;
 };
