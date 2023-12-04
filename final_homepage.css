@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    /* Adjust the scale value as needed */
     overflow-x: hidden;
 }
 
@@ -61,6 +60,32 @@ body {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        width: 90%;
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    .content {
+        margin-left: 300px;
+    }
+
+
+}
+
+@media only screen and (max-width: 414px) {
+    body {
+        width: 95%;
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    .content {
+        margin-left: 200px;
+    }
+}
+
 #email {
     position: fixed;
     left: 160px;
@@ -100,11 +125,13 @@ footer {
     margin-left: 20px;
 }
 
+
+
+
 .language-text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: left;
-    margin-left: 20px;
     margin-top: -20px;
     line-height: 32px;
     padding-top: 50px;
