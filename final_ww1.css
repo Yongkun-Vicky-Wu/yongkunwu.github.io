@@ -71,6 +71,7 @@ footer {
     left: 80px;
     color: #aeaeae;
     padding-bottom: 20px;
+    letter-spacing: 0.8px;
 }
 
 .text {
@@ -136,15 +137,13 @@ footer {
 
 .image-container img {
     width: 20%;
-    /* Ensure images take up the full width of the container */
     margin-right: 130px;
-    /* Adjust as needed for spacing between images */
 }
 
 .main-content {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     margin-top: 20px;
     line-height: 32px;
     padding-top: 50px;
@@ -189,4 +188,20 @@ footer {
     color: #aeaeae;
     letter-spacing: 0.8px;
     padding-bottom: 50px
+}
+
+.authors a {
+    width: calc(100% - 100px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: -10px;
+    line-height: 32px;
+    padding-top: 20px;
+    color: #aeaeae;
+    letter-spacing: 0.8px;
+    padding-bottom: 50px
+}
+
+.authors a:hover {
+    color: white;
 }
