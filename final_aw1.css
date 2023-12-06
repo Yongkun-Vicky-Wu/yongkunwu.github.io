@@ -94,7 +94,7 @@ body {
 .main-content p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     width: calc(100% - 100px);
     line-height: 32px;
     color: #aeaeae;
@@ -139,7 +139,6 @@ body {
     flex: 0 0 calc(33.333%);
     /* 33.333% width for each item with 20px margin */
     margin-bottom: 30px;
-    /* Margin between rows */
 }
 
 .image-item img {
@@ -154,4 +153,5 @@ footer {
     left: 80px;
     color: #aeaeae;
     padding-bottom: 20px;
+    letter-spacing: 0.8px;
 }
