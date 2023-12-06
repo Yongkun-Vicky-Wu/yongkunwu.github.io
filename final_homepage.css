@@ -60,64 +60,80 @@ body {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-    body {
-        width: 90%;
-        background-color: black;
-        overflow-x: hidden;
-    }
-
-    .content {
-        margin-left: 100px;
-    }
-
-
+/* The version that uses flex and grid */
+/* body {
+    background-color: black;
+    margin: 0;
+    padding: 0px
 }
 
-@media only screen and (max-width: 414px) {
-    body {
-        width: 95%;
-        background-color: black;
-        overflow-x: hidden;
-    }
-
-    .content {
-        margin-left: 100px;
-    }
-}
-
-#email {
+.direct {
     position: fixed;
-    left: 160px;
-    top: 580px;
-    color: #aeaeae;
-    font-size: 18px;
-    line-height: 20px;
+    letter-spacing: 1.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 30px;
+    text-align: center;
 }
 
-.contact {
-    position: fixed;
-    left: 92px;
-    top: 580px;
+.name {
+    display: flex;
+    flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 20px;
-    color: #aeaeae;
+    font-size: 32px;
+    line-height: 80px;
+    color: white;
     letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
 }
 
-footer {
-    position: fixed;
-    bottom: 20px;
-    left: 80px;
+.direct a {
+    display: flex;
+    flex-direction: column;
     color: #aeaeae;
-    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 80px;
+    border-bottom: solid 1px #767676;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+}
+
+#homepage a {
+    color: white;
+    text-align: center;
+}
+
+#cv a {
+    text-align: center;
+}
+
+#ww a,
+#aw a {
+    text-align: center;
+}
+
+.direct a:hover {
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+} */
+
+@media only screen and (max-width: 600px) {
+    .content {
+        margin-left: 100px;
+        font-size: 16px;
+    }
 }
 
 .content {
-    margin-left: 520px;
-    margin-top: -20px;
-    width: calc(100%-520px)
+    margin-left: 450px;
+    width: calc(100%-400px)
 }
 
 #blackhole {
@@ -128,13 +144,23 @@ footer {
 .language-text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     margin-top: -20px;
     line-height: 32px;
     padding-top: 50px;
-    width: 75%;
+    width: 80%;
     color: #aeaeae;
     letter-spacing: 0.8px;
+}
+
+.language-text a {
+    color: rgb(147, 115, 115);
+    text-decoration: none;
+}
+
+.language-text a:hover {
+    color: #aeaeae;
+    text-decoration: none;
 }
 
 button {
@@ -163,5 +189,39 @@ button:hover {
     border-radius: 5px;
     letter-spacing: 1px;
     line-height: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-footer {
+    position: fixed;
+    bottom: 20px;
+    left: 60px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 18px;
+    color: #aeaeae;
+    letter-spacing: 1px;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 100px;
+    color: #aeaeae;
+    letter-spacing: 1px;
 }
