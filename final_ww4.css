@@ -64,12 +64,39 @@ body {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+        width: 90%;
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    .text {
+        margin-left: 300px;
+    }
+
+
+}
+
+@media only screen and (max-width: 414px) {
+    body {
+        width: 95%;
+        background-color: black;
+        overflow-x: hidden;
+    }
+
+    .text {
+        margin-left: 200px;
+    }
+}
+
 footer {
     position: fixed;
     bottom: 20px;
     left: 80px;
     color: #aeaeae;
     padding-bottom: 20px;
+    letter-spacing: 0.8px;
 }
 
 .text {
@@ -86,30 +113,6 @@ footer {
     width: calc(100% - 100px);
 }
 
-/* .work1 img {
-    position: absolute;
-    left: 520px;
-    top: 200px;
-    width: 200px;
-    height: 200px;
-}
-
-.work2 img {
-    position: absolute;
-    left: 820px;
-    top: 200px;
-    width: 200px;
-    height: 200px;
-}
-
-.work3 img {
-    position: absolute;
-    left: 1120px;
-    top: 200px;
-    width: 200px;
-    height: 200px;
-} */
-
 .image-container {
     display: flex;
     margin-left: 10px;
@@ -118,15 +121,13 @@ footer {
 
 .image-container img {
     width: 20%;
-    /* Ensure images take up the full width of the container */
     margin-right: 120px;
-    /* Adjust as needed for spacing between images */
 }
 
 .main-content {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     margin-top: -10px;
     line-height: 32px;
     padding-top: 50px;
@@ -147,4 +148,22 @@ footer {
     color: #999999;
     letter-spacing: 0.8px;
     padding-bottom: 50px;
+}
+
+.translation a {
+    width: calc(100% - 100px);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: -10px;
+    line-height: 32px;
+    padding-top: 20px;
+    color: #aeaeae;
+    letter-spacing: 0.8px;
+    padding-bottom: 50px;
+    font-style: normal
+}
+
+.translation a:hover {
+    color: white;
+    font-style: normal;
 }
